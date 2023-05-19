@@ -1,0 +1,128 @@
+.gpt3__footer {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+}
+.gpt3__footer-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gpt3__footer-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.gpt3__footer-btn {
+  display: flex;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+  border-radius: 2px;
+  left: 0px;
+  top: 4621px;
+  background: #031b34;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.gpt3__footer-btn p {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+.pgt3__footer-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+}
+.gpt3__footer-links_logo p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 3rem;
+  cursor: pointer;
+}
+.pgt3__footer-copywrite {
+  margin-top: 3rem;
+  text-align: center;
+  width: 100%;
+}
+.pgt3__footer-copywrite p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.gpt3__footer-links_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gpt3__footer-links_div h4 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.gpt3__footer-links_div p {
+  font-family: var(--font-family);
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .gpt3__footer-heading h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .gpt3__footer-btn {
+    padding: 0.8rem;
+  }
+  .gpt3__footer-btn p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .gpt3__footer-links_div {
+    padding-top: 3rem;
+  }
+  .gpt3__footer-links_div p {
+    padding-top: 0.5rem;
+  }
+  .pgt3__footer-copywrite {
+    padding-top: 2rem;
+  }
+ 
+}
+
+@media screen and (max-width: 650px) {
+  .pgt3__footer-links {
+    flex-direction: column;
+  }
+  .gpt3__footer-heading h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .gpt3__footer-btn {
+    padding: 0.5rem;
+  }
+  .gpt3__footer-btn p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
